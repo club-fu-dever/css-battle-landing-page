@@ -1,4 +1,5 @@
 $default_color: #9418b2;
+@import './src/styles/styles.mixins.scss';
 
 @mixin icon_style() {
   color: $default_color;
@@ -30,6 +31,8 @@ $default_color: #9418b2;
 .container_header {
   background-color: #ffff;
 
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
   margin: 0 auto;
 
   max-width: 1440px;
@@ -40,13 +43,14 @@ $default_color: #9418b2;
   height: 90px;
   gap: 30px;
 
-
-
-
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @include mobile {
+    height: fit-content;
+  }
 
   .logo {
     user-select: none;
@@ -63,6 +67,11 @@ $default_color: #9418b2;
       font-weight: 1000;
       line-height: 24px;
       text-align: left;
+
+      @include mobile {
+        font-size: 20px;
+        line-height: 20px;
+      }
     }
 
     &_element_2 {
@@ -70,6 +79,11 @@ $default_color: #9418b2;
       font-weight: 400;
       line-height: 18px;
       text-align: center;
+
+      @include mobile {
+        font-size: 16px;
+        line-height: 16px;
+      }
     }
   }
 
@@ -194,20 +208,16 @@ $default_color: #9418b2;
 
 /*Tablet*/
 
-
-@media only screen and (max-width: 1439px) and (min-width :768px) {
+@media only screen and (max-width: 1439px) and (min-width: 768px) {
   .container_header {
     padding: 20px 60px;
   }
-
 }
 
-
-@media only screen and (max-width: 767px) and (min-width :640px) {
+@media only screen and (max-width: 767px) and (min-width: 640px) {
   .container_header {
     padding: 20px 40px;
   }
-
 }
 
 @media only screen and (max-width: 639px) {

@@ -13,7 +13,9 @@ function Retro() {
       <div className="container">
         <div className={styles['contact__intro']}>
           <h3 className={styles['contact__intro1']}>RETRO</h3>
-          <h3 className={styles['contact__intro2']}>Cảm nghĩ</h3>
+          <h3 className={styles['contact__intro2']}>
+            Cảm nghĩ các chiến binh mùa 1
+          </h3>
         </div>
 
         <div className={styles['contact__outimage']}>

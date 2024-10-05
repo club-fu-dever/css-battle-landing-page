@@ -8,7 +8,6 @@
 
   @include mobile {
     padding: 40px 0;
-
   }
 
   @include tablet {
@@ -49,6 +48,8 @@
     @include mobile {
       padding: 0px 0px;
       height: max-content;
+
+      grid-template-columns: 1fr;
     }
 
     @include tablet {
@@ -71,24 +72,21 @@
   &__intro1 {
     font-size: 32px;
     line-height: 32px;
-    color: #9418B2;
+    color: #9418b2;
     padding-left: 15px;
     font-weight: 400;
 
-    @include mobile {
-      margin: 0%;
-      font-size: 24px;
-      line-height: 24px;
+    // @include mobile {
+    //   margin: 0%;
+    //   font-size: 24px;
+    //   line-height: 24px;
+    // }
 
-    }
-
-    @include tablet {
-      margin: 0%;
-      font-size: 28px;
-      line-height: 30px;
-
-    }
-
+    // @include tablet {
+    //   margin: 0%;
+    //   font-size: 28px;
+    //   line-height: 30px;
+    // }
   }
 
   &__intro2 {
@@ -98,19 +96,17 @@
     color: #000000;
     padding-left: 15px;
 
-    @include mobile {
-      margin: 0%;
-      font-size: 12px;
-      line-height: 30px;
-    }
+    // @include mobile {
+    //   margin: 0%;
+    //   font-size: 12px;
+    //   line-height: 30px;
+    // }
 
-    @include tablet {
-      margin: 0%;
-      font-size: 18px;
-      line-height: 32px;
-
-    }
-
+    // @include tablet {
+    //   margin: 0%;
+    //   font-size: 18px;
+    //   line-height: 32px;
+    // }
   }
 
   &__intro {
@@ -118,20 +114,19 @@
     text-align: justify;
     justify-content: center;
     display: flexbox;
-    border-left: 5px solid #9418B2;
+    border-left: 5px solid #9418b2;
 
     margin: 0 0 20px 0;
 
-    @include mobile {
-      margin: 0 0 10px 0;
-      height: 44px;
-    }
+    // @include mobile {
+    //   margin: 0 0 10px 0;
+    //   height: 44px;
+    // }
 
-    @include tablet {
-      height: 52px;
-      margin: 0 0 20px 0;
-    }
-
+    // @include tablet {
+    //   height: 52px;
+    //   margin: 0 0 20px 0;
+    // }
   }
 
   &__organizingUnit {
@@ -145,7 +140,6 @@
     @include mobile {
       margin-top: 40px;
       gap: 12px;
-
     }
 
     @include tablet {
@@ -156,18 +150,17 @@
     &__title {
       font-size: 32px;
       font-weight: 400;
-      color: #9418B2;
+      color: #9418b2;
 
-      @include mobile {
-        font-size: 24px;
+      // @include mobile {
+      //   font-size: 24px;
 
+      // }
 
-      }
+      // @include tablet {
+      //   font-size: 28px;
 
-      @include tablet {
-        font-size: 28px;
-
-      }
+      // }
     }
 
     &__image {
@@ -179,5 +172,4 @@
       }
     }
   }
-
 }
