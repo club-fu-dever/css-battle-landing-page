@@ -1,0 +1,105 @@
+import Image from 'next/image';
+import IMG1 from '@img/photo/img_group.svg';
+import * as styles from './styles.module.scss';
+import Link from 'next/link';
+
+function CompetitionStruct() {
+  return (
+    <section className={styles['contact']}>
+      <div className="container">
+        <div className="contact-section">
+          <div className={styles['contact-header']}>
+            <h3 className={styles['contact-header-text']}>CƠ CẤU CUỘC THI</h3>
+            <p className={styles['contact-header-text1']}>Các vòng thi đấu</p>
+          </div>
+        </div>
+        <div className={styles['contact-section']}>
+          <div className={styles['contact-section1']}>
+            <div className={styles['contact-section-list']}>
+              <h3 className={styles['contact-header-text']}> 1. Vòng loại </h3>
+              <div className={styles['contact-section__round']}>
+                <div className={styles['contact-section__rounds']}>
+                  <li>
+                    Các tuyển thủ thi đấu cá nhân và chọn ra 30 tuyển thủ xuất
+                    sắc nhất tiến tiếp vào vòng bán kết.
+                  </li>
+                </div>
+                <div className={styles['contact-section__rounds']}>
+                  <li>
+                    Các tuyển thủ chung bảng thi đấu chung một bộ đề bao gồm 3
+                    câu hỏi (1 dễ, 1 vừa, 1 khó)
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div className={styles['contact-section-list']}>
+              <h3 className={styles['contact-header-text']}>2. Vòng bán kết</h3>
+              <div className={styles['contact-section__round']}>
+                <div className={styles['contact-section__rounds']}>
+                  <li>
+                    30 tuyển thủ xuất sắc từ vòng loại sẽ tiếp tục hành trình
+                    vào vòng bán kết
+                  </li>
+                </div>
+                <div className={styles['contact-section__rounds']}>
+                  <li>
+                    Các tuyển thủ sẽ tiếp tục thi đấu cá nhân theo từng bảng, và
+                    chỉ có 3 tuyển thủ xuất sắc nhất từ mỗi bảng sẽ tiến vào
+                    vòng chung kết.
+                  </li>
+                </div>
+                <div className={styles['contact-section__rounds']}>
+                  <li>
+                    Các tuyển thủ chung bảng thi đấu chung một bộ đề bao gồm 3
+                    câu hỏi (1 dễ, 1 vừa, 1 khó)
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div className={styles['contact-section-list']}>
+              <h3 className={styles['contact-header-text']}>
+                3. Vòng chung kết
+              </h3>
+              <div className={styles['contact-section__round']}>
+                <div className={styles['contact-section__rounds']}>
+                  <li>
+                    3 tuyển thủ xuất sắc từ vòng bán kết sẽ bước vào cuộc chiến
+                    cuối cùng.
+                  </li>
+                </div>
+                <div className={styles['contact-section__rounds']}>
+                  <li>
+                    Các tuyển thủ sẽ thi đấu cá nhân, tính điểm và chọn ra các
+                    giải Nhất, Nhì và Ba, để xưng danh “The king of CSS”.
+                  </li>
+                </div>
+                <div className={styles['contact-section__rounds']}>
+                  <li>
+                    Mỗi bộ đề thi đấu sẽ bao gồm 3 câu hỏi, bao gồm 1 câu vừa, 1
+                    câu khó và 1 câu siêu khó.
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={styles['contact-section__action']}>
+            <Link
+              target="_blank"
+              href="https://forms.gle/mGVLHwWJxTdtStha7"
+              className={styles['contact-main_button1']}
+            >
+              <button className={styles['contact-main_button']}>
+                Đăng ký ngay
+              </button>
+            </Link>
+            <div className={styles['contact-section__stack']}>
+              <div className={styles['contact-section__stack1']}></div>
+              <Image src={IMG1} alt="image" className={styles.image} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+export default CompetitionStruct;
