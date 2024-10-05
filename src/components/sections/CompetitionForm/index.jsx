@@ -81,7 +81,7 @@ function CompetitionForm() {
             </div>
             <Link
               target="_blank"
-              href="https://forms.gle/mGVLHwWJxTdtStha7"
+              href="https://forms.gle/1EWTEj72ivqHq2fg8"
               className={styles['contact-main_button1']}
             >
               <button className={styles['contact-main_button']}>
