@@ -32,8 +32,14 @@ function Header() {
           </a>
         </nav>
         <div className={styles['button']}>
-          <Link target="_blank" href="https://forms.gle/mGVLHwWJxTdtStha7">
-            <button className={styles['register']}>Đăng ký ngay</button>
+          <Link
+            target="_blank"
+            href="https://forms.gle/mGVLHwWJxTdtStha7"
+            className={styles['contact-main_button1']}
+          >
+            <button className={styles['contact-main_button']}>
+              Đăng ký ngay
+            </button>
           </Link>
           <button className={styles['icon']} onClick={handleClick}>
             <HamburgerMenuIcon open={open} />

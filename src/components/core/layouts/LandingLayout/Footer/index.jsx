@@ -10,8 +10,14 @@ function Footer() {
             Đăng ký tham gia CSS Battle 2024 để chinh phục ngôi vương “The king
             of CSS 2024”!
           </p>
-          <Link target="_blank" href="https://forms.gle/mGVLHwWJxTdtStha7">
-            <button className={styles['main_register']}>Đăng ký ngay</button>
+          <Link
+            target="_blank"
+            href="https://forms.gle/mGVLHwWJxTdtStha7"
+            className={styles['contact-main_button1']}
+          >
+            <button className={styles['contact-main_button']}>
+              Đăng ký ngay
+            </button>
           </Link>
         </div>
         <div className={styles['detail']}>

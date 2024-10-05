@@ -110,7 +110,11 @@ $default_color: #9418b2;
     text-align: center;
     text-decoration: none;
 
+    font-family: 'Oswald', sans-serif;
+
     border: none;
+
+    box-shadow: 0px 0px 16px 0px #6424b2;
 
     padding: 8px 32px 8px 32px;
     gap: 10px;
@@ -227,5 +231,29 @@ $default_color: #9418b2;
 @media only screen and (max-width: 639px) {
   .container_header {
     padding: 20px 20px;
+  }
+}
+
+.contact-main_button {
+  cursor: pointer;
+  background-color: #9418b2;
+  box-shadow: 0px 0px 16px 0px #6424b2;
+  color: #ffffff;
+  height: 40px;
+  padding: 8px 32px 8px 32px;
+  gap: 10px;
+  font-size: 16px;
+  justify-content: center;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  font-family: unset;
+
+  text-wrap: nowrap;
+
+  @include mobile {
+    padding: 8px;
+    font-size: 14px;
   }
 }
