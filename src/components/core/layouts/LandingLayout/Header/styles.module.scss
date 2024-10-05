@@ -114,7 +114,6 @@ $default_color: #9418b2;
 
     padding: 8px 32px 8px 32px;
     gap: 10px;
-    opacity: 0px;
     background: #9418b2;
     color: white;
     transition: box-shadow 0.3s ease-in-out;
@@ -185,7 +184,6 @@ $default_color: #9418b2;
 
     &_close {
       top: -150px;
-      opacity: 0;
     }
 
     &_element {
