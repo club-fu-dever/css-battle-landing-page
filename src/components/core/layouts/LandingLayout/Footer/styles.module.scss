@@ -69,6 +69,7 @@
     gap: 10px;
 
     .copywrite {
+      margin-top: 20px;
       grid-area: copywrite;
       display: flex;
       flex-direction: column;
@@ -150,7 +151,6 @@
     align-content: center !important;
     justify-content: center !important;
     align-items: center !important;
-    gap: 40px !important;
     .contact {
       // width: 100%;
     }
@@ -173,6 +173,8 @@
         gap: 24px;
 
         .copywrite {
+          margin-top: 20px;
+
           display: flex;
           flex-direction: column;
           align-content: center;

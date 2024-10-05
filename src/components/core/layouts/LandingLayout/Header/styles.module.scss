@@ -155,10 +155,6 @@ $default_color: #9418b2;
 /*Mobile*/
 @media (max-width: 768px) {
   .container_header {
-    position: fixed;
-    top: 0;
-    z-index: 99;
-
     .menubar_lg {
       display: none;
     }
