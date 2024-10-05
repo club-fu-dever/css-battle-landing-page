@@ -139,6 +139,10 @@
           color: #ffff;
           text-decoration: none;
         }
+
+        @include mobile {
+          align-items: center;
+        }
       }
     }
   }
