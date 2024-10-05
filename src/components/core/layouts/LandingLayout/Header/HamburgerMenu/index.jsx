@@ -4,8 +4,8 @@ import styles from './styles.module.scss';
 
 const HamburgerMenuIcon = ({ open }) => {
   return (
-    <div class={`${styles['menu-btn']} ${open ? styles['open'] : ''}`}>
-      <div class={styles['menu-btn__burger']}></div>
+    <div className={`${styles['menu-btn']} ${open ? styles['open'] : ''}`}>
+      <div className={styles['menu-btn__burger']}></div>
     </div>
   );
 };

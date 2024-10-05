@@ -1,8 +1,6 @@
 @import './src/styles/styles.mixins.scss';
 
-
 .contact {
-
   margin-top: 30px;
   gap: 33px;
   display: flex;
@@ -11,20 +9,15 @@
 
   background-color: #ffffff;
 
-
   padding: 60px 0;
 
   @include mobile {
     padding: 40px 0;
-
   }
 
   @include tablet {
     padding: 40px 0;
-
   }
-
-
 }
 
 .contact-section {
@@ -38,14 +31,14 @@
   display: block;
   height: 56px;
   gap: 4px;
-  border-left: 4px solid #9418B2;
+  border-left: 4px solid #9418b2;
   margin: 0 0 20px 0;
 }
 
 .contact-header-text {
   font-size: 32px;
   line-height: 32px;
-  color: #9418B2;
+  color: #9418b2;
   padding-left: 15px;
   font-weight: 400;
 
@@ -138,7 +131,6 @@
   @media only screen and (max-width: 1024px) {
     width: 100%;
   }
-
 }
 
 .contact-main_button {
