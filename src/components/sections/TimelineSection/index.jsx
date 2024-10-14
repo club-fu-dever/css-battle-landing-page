@@ -79,7 +79,7 @@ function TimelineSection() {
           <div className={styles['timeline__container-3']}>
             <div className={styles['timeline__group-up6']}>
               <b>I. Giai đoạn 1</b>
-              <div className={styles['timeline__date3']}>05/10 - 14/10</div>
+              <div className={styles['timeline__date3']}>05/10 - 20/10</div>
               <span className={styles['timeline__content_1']}>
                 <h6 className={styles['timeline__title6']}>Nhận đơn đăng ký</h6>
                 <p className={styles['timeline__title4']}>
